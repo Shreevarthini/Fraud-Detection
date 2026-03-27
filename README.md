@@ -1,5 +1,6 @@
 ---
 title: Credit Card Fraud Detection
+emoji: 🛡️
 colorFrom: blue
 colorTo: red
 sdk: streamlit
