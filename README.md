@@ -24,3 +24,6 @@ This project demonstrates a **Real-Time Fraud Detection Engine** built with XGBo
 ### How to Test
 1. Use the **"Suspicious Pattern"** button in the sidebar to load a known risky profile.
 2. Click **"Analyze Transaction"** to see the probability score and recommended action.
+
+### DATASET 
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
