@@ -26,5 +26,16 @@ This project demonstrates a **Real-Time Fraud Detection Engine** built with XGBo
 1. Use the **"Suspicious Pattern"** button in the sidebar to load a known risky profile.
 2. Click **"Analyze Transaction"** to see the probability score and recommended action.
 
+### Understanding the Features (V1 - V28)
+If you are visiting this app for the first time, you might notice the features are labeled V1 through V28. Here is why:
+
+Privacy Protection: The original data contains sensitive credit card information (like merchant names, locations, and personal habits). To comply with privacy laws, the researchers used PCA (Principal Component Analysis).
+
+What is PCA?: It is a dimensionality reduction technique that transforms raw data into a new set of variables. While we can no longer see the "original" names (like "Merchant Category"), the mathematical patterns and correlations of fraud are preserved.
+
+Key Indicators: In this model, features like V14, V17, and V12 are often the most significant "signals" for detecting fraudulent behavior.
+
+Included Raw Features: Only Time and Amount remained in their original form and were scaled during the preprocessing phase.
+
 ### DATASET 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
