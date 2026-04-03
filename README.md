@@ -12,6 +12,8 @@ pinned: false
 
 This project demonstrates a **Real-Time Fraud Detection Engine** built with XGBoost. It addresses the challenge of extreme class imbalance (0.17% fraud rate) using **SMOTE** (Synthetic Minority Over-sampling Technique).
 
+https://huggingface.co/spaces/Shreevarthini/Fraud-Detection-CC
+
 ### Features
 * **XGBoost Classifier:** Optimized for **Recall** to minimize missed fraudulent transactions.
 * **SMOTE Integration:** Balanced the training set to ensure the model learns fraud patterns effectively.
